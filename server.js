@@ -6,6 +6,6 @@ app.get("/", (req, res) => {
 });
 
 const port = process.env.PORT || 3000;
-app.listen(8081, () => {
+app.listen(port, () => {
     console.log("Simple Node App is listening");
-})
+});
